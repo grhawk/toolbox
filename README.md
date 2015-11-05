@@ -36,4 +36,17 @@ ARCH=xxx make
 ```
 
 
+icmbpriv20
+----------
+
+For some reasons, to successfully compile on my pc, I must add an
+-D_IBM to the compilator option. 
+
+I added the arch.icmbpriv20 with the said option. Run
+
+```bash
+ARCH=icmbpriv20 make
+```
+
+to compile without problems.
 
